@@ -8,6 +8,7 @@ Symbol::Table - An easy interface to symbol tables (no eval(), no *typeglobs )
   # constructor takes two arguments, 
   # (1) which TYPE of symbols (PACKAGE,CODE,SCALAR,ARRAY,HASH)
   # and (2) what package namespace do you wish to examine
+  # (default value for arguments are 'PACKAGE' and current package namespace)
   # the return value is a symbol table object.
   my $st_pkg = Symbol::Table->New('PACKAGE', 'main');
 

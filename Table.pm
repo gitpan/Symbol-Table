@@ -7,7 +7,7 @@ use warnings;
 use Data::Dumper;
 use Carp;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 #########################################################################
 sub _callers_package_name

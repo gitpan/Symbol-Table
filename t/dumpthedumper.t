@@ -30,9 +30,10 @@ is($str,$normal,"Confirm Data::Dumper works as expected");
 # now override the Data::Dumper subroutine.
 ##################################################################
 
-my @temp=@INC;
+my $st=Symbol::Table->New('CODE');
 
-eval("use DumpTheDumper;");
+$st->{Dumper}= sub 
+	{return "Dumper cant come to the phone now";};
 
 
 my $override = Dumper $test_var;

@@ -4,3 +4,5 @@ Revision history for Perl extension Symbol::Table.
 	- original version; created by h2xs 1.22 with options
 		-X Symbol::Table
 
+1.01  Thu Mar 13 20:11:57 EST 2003
+	- Fixed test

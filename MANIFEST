@@ -3,7 +3,6 @@ Makefile.PL
 MANIFEST
 README
 Table.pm
-t/DumpTheDumper.pm
 t/dumpthedumper.t
 t/make_scalar_into_constant.t
 t/modify_a_scalar_value.t
